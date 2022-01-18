@@ -1,0 +1,90 @@
+.projects {
+    padding: 112px 0;
+    background-color: #252B42;
+}
+
+.projects__container {
+}
+
+.projects__header {
+}
+
+.projects__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px -15px -30px;
+}
+
+.projects__column {
+    padding: 0px 15px;
+    flex: 0 1 25%;
+    transition: 0.5s;
+}
+
+.projects__column:hover {
+    transform: translateY(-20px);
+}
+
+@media (max-width: 1460px) {
+    .projects__body {
+        flex-wrap: wrap;
+    }
+}
+
+.projects__item {
+}
+
+
+.item-projects {
+}
+
+.item-projects_bgcover {
+    width: 100%;
+    margin: 86px 0px 0px 0px;
+    position: relative;
+}
+
+.projects__content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    margin: 0px 0px 0px 20px;
+    letter-spacing: 0.2px;
+}
+
+.projects__title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    padding: 0px 0px 15px 0px;
+}
+
+.projects__subtitle {
+    padding: 0px 0px 15px 0px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.project__buttons {
+    display: flex;
+}
+
+.project__button {
+    padding: 10px 36px;
+    background: #23A6F0;
+    border-radius: 37px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 157%;
+    text-align: center;
+    margin: 0px 0px 17.5px 0px;
+    transition: 0.3s all ease 0s;
+}
+
+.project__button:hover {
+    background-color: #fff;
+    color: #23A6F0;
+}

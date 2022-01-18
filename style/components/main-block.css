@@ -1,0 +1,79 @@
+.main-block {
+    position: relative;
+    background-image: linear-gradient(89.85deg, #000000 0.13%, #000000 0.14%, rgba(0, 0, 0, 0) 99.56%), url('../../images/main-block/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-block__body {
+    padding: 184px 0px 191px 0px;
+    position: relative;
+    z-index: 2;
+    max-width: 400px;
+}
+
+.main-block__body > *:not(:last-child) {
+    margin: 0px 0px 35px 0px;
+}
+
+.main-block__title {
+    font-size: 58px;
+    line-height: 138%;
+    letter-spacing: 0.2px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.main-block__text {
+    font-size: 20px;
+    line-height: calc(30 / 20 * 100%);
+    font-weight: 500;
+    color: #fff;
+}
+
+.main-block__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px 0;
+}
+
+.main-block__button {
+    border-radius: 37px;
+    display: flex;
+    min-height: 48px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    padding: 15px 36px;
+    margin: 10px 0;
+    transition: all 0.3s ease 0s;
+    color: #fff;
+}
+
+.main-block__button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.main-block__button_blue {
+    background: #23A6F0;
+    border: 1px solid #23A6F0;
+}
+
+.main-block__button_blue:hover {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.main-block__button_border {
+    border: 1px solid #fff;
+}
+
+.main-block__button_border:hover {
+    background-color: #23A6F0;
+    border: 1px solid #23A6F0;
+}
+

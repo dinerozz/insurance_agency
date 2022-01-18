@@ -1,0 +1,131 @@
+.pricing {
+    padding: 112px 0;
+    background-color: #252B42;
+}
+
+.pricing__container {
+}
+
+.pricing__header {
+}
+
+.pricing__body {
+    display: flex;
+    margin-top: 106px;
+    margin-bottom: 29px;
+    position: relative;
+}
+
+
+.pricing__column {
+    flex: 0 1 33.333%;
+    padding: 0px -30px 0px 0px;
+}
+
+.pricing__column:not(:last-child) {
+    margin: 0px 30px 0px 0px;
+}
+
+.pricing__item {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.item-pricing {
+}
+
+.pricing__content {
+    text-align: center;
+    padding: 50px 40px 50px 40px;
+}
+
+.pricing__title {
+    color: #252B42;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    padding: 0px 0px 35px 0px;
+}
+
+.pricing__subtitle {
+    padding: 0px 0px 35px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #737373;
+}
+
+.pricing__cost {
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.2px;
+}
+
+.pricing__word {
+    padding: 0px 0px 35px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+    color: #8EC2F2;
+}
+
+.pricing__button {
+
+}
+
+.button__pricing {
+    padding: 15px 40px;
+    background: #23A6F0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s all ease 0s;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 157%;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.button__pricing:hover {
+    background-color: #136cdb;
+}
+
+.pricing__permissions {
+    padding: 35px 0px 0px 0px;
+    text-align: left;
+}
+
+.pricing__permissions li {
+    background: url("../../images/pricing/active.svg") left no-repeat;
+    font-weight: 600;
+    min-height: 32px;
+    font-size: 14px;
+    line-height: 171%;
+    padding: 0px 0px 0px 42px;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 17px 0px;
+    color: #252B42;
+}
+
+.pricing__permissions li:last-child {
+    margin: 0;
+}
+
+.pricing__permissions li:nth-child(4), .pricing__permissions li:last-child {
+    background: url("../../images/pricing/notactive.svg") no-repeat;
+}
+
+
+.pricing__new-circle {
+    position: absolute;
+    top: -4%;
+    right: 36%;
+}

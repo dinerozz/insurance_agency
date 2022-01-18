@@ -1,0 +1,11 @@
+@media (max-width: 1460px) {
+    .projects__body {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1460px) {
+    .pricing__body {
+        flex-wrap: wrap;
+    }
+}

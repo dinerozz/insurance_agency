@@ -1,0 +1,97 @@
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header__container {
+    display: flex;
+    min-height: 58px;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 133%;
+    color: #fff;
+    letter-spacing: 0.1px;
+}
+
+.header__menu {
+    margin: 0px 0px 0px 133px;
+}
+
+.menu {
+    padding: 5px 0px;
+}
+
+.menu__list {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.menu__item:not(:last-child) {
+    margin: 0px 21px 0px 0px;
+}
+
+.menu__link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.header-block {
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.header-block__title {
+    line-height: 142%;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0px 0px 10px 0px;
+}
+
+.header-block__sub-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+}
+
+.header__member {
+    display: flex;
+    flex-display: row;
+    align-items: center;
+    margin-left: auto;
+}
+
+.login__link {
+    margin: 0px 45px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 157%;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.member__button {
+    background-color: #23A6F0;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 157%;
+    letter-spacing: 0.2px;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
